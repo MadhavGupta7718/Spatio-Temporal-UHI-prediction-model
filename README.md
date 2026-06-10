@@ -54,8 +54,6 @@ uhi-prediction-delhi/
 │       ├── 3_Simulation_Tool.py     # Construction impact simulator
 │       └── 4_Mined_Rules.py         # Association rules explorer
 │
-├── notebooks/                 # Jupyter notebooks for EDA
-├── paper/                     # 9+ Page IEEE research paper (LaTeX) & generated figures
 └── outputs/
     ├── maps/                  # Generated Folium maps
     ├── plots/                 # Generated charts
