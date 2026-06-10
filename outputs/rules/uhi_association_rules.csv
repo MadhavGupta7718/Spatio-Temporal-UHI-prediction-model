@@ -1,0 +1,33 @@
+rule,support,confidence,lift,antecedents_str,consequents_str
+"{humidity=Dry, uhi=Mild} → {season=Summer}",0.08387257341961175,0.9232876712328767,3.6657804970491092,"humidity=Dry, uhi=Mild",season=Summer
+"{season=Summer, temp=High} → {humidity=Dry}",0.08611249377799901,0.7424892703862661,3.598699503512687,"season=Summer, temp=High",humidity=Dry
+"{humidity=Dry, temp=High} → {season=Summer}",0.08611249377799901,0.8693467336683417,3.4516157864420918,"humidity=Dry, temp=High",season=Summer
+"{precip=None, temp=High} → {humidity=Dry}",0.08013937282229965,0.62890625,3.0481849366706877,"precip=None, temp=High",humidity=Dry
+"{precip=None, uhi=Mild} → {season=Summer}",0.10104529616724739,0.7518518518518519,2.9851193090323527,"precip=None, uhi=Mild",season=Summer
+{uhi=Strong} → {temp=High},0.08188153310104529,0.8308080808080807,2.862938995443283,uhi=Strong,temp=High
+"{anomaly=AboveNormal, wind=Light} → {season=Summer}",0.08909905425584869,0.6897880539499036,2.738703953330744,"anomaly=AboveNormal, wind=Light",season=Summer
+"{anomaly=AboveNormal, precip=None} → {season=Summer}",0.09432553509208562,0.6672535211267606,2.6492338417858936,"anomaly=AboveNormal, precip=None",season=Summer
+"{precip=None, temp=High} → {season=Summer}",0.08337481333997014,0.6542968750000001,2.5977913475790517,"precip=None, temp=High",season=Summer
+"{season=Monsoon, uhi=Mild} → {temp=High}",0.09084121453459433,0.7448979591836735,2.5668953687821614,"season=Monsoon, uhi=Mild",temp=High
+{anomaly=AboveNormal} → {season=Summer},0.11996017919362867,0.6443850267379678,2.5584377840248567,anomaly=AboveNormal,season=Summer
+"{anomaly=Normal, solar=High, temp=High} → {season=Monsoon}",0.08461921353907417,0.7709750566893424,2.308329193575095,"anomaly=Normal, solar=High, temp=High",season=Monsoon
+"{anomaly=Normal, temp=High} → {season=Monsoon}",0.12767546042807368,0.7656716417910447,2.292450563872144,"anomaly=Normal, temp=High",season=Monsoon
+"{precip=Light, temp=High} → {season=Monsoon}",0.08909905425584869,0.7552742616033756,2.26132040471115,"precip=Light, temp=High",season=Monsoon
+"{humidity=Dry, season=Summer} → {uhi=Mild}",0.08387257341961175,0.6127272727272728,2.219962291991147,"humidity=Dry, season=Summer",uhi=Mild
+"{anomaly=Normal, uhi=Mild} → {temp=High}",0.0856147336983574,0.6358595194085028,2.1911522718553726,"anomaly=Normal, uhi=Mild",temp=High
+"{humidity=Dry, season=Summer} → {temp=High}",0.08611249377799901,0.6290909090909091,2.1678278496803367,"humidity=Dry, season=Summer",temp=High
+"{solar=High, uhi=Mild} → {temp=High}",0.09258337481333997,0.6231155778894473,2.147237042847169,"solar=High, uhi=Mild",temp=High
+"{anomaly=Normal, season=Monsoon, solar=High} → {temp=High}",0.08461921353907417,0.6039076376554174,2.0810470738417384,"anomaly=Normal, season=Monsoon, solar=High",temp=High
+"{solar=High, temp=High} → {season=Monsoon}",0.10328521652563465,0.6014492753623188,1.8007624354737684,"solar=High, temp=High",season=Monsoon
+"{anomaly=Normal, season=Monsoon, temp=High} → {solar=High}",0.08461921353907417,0.6627680311890838,1.7836583719475811,"anomaly=Normal, season=Monsoon, temp=High",solar=High
+"{anomaly=Normal, temp=High} → {solar=High}",0.10975609756097561,0.6582089552238806,1.7713888694504705,"anomaly=Normal, temp=High",solar=High
+"{temp=High, wind=Light} → {solar=High}",0.1095072175211548,0.6153846153846154,1.656138904631872,"temp=High, wind=Light",solar=High
+"{precip=None, uhi=Mild} → {solar=High}",0.08113489298158287,0.6037037037037036,1.6247029346828408,"precip=None, uhi=Mild",solar=High
+"{season=Monsoon, solar=High, temp=High} → {anomaly=Normal}",0.08461921353907417,0.819277108433735,1.5720417486565175,"season=Monsoon, solar=High, temp=High",anomaly=Normal
+"{season=Monsoon, temp=High} → {anomaly=Normal}",0.12767546042807368,0.7370689655172414,1.4142994763363306,"season=Monsoon, temp=High",anomaly=Normal
+"{precip=Light, temp=High} → {anomaly=Normal}",0.08312593330014932,0.7046413502109704,1.3520768601469337,"precip=Light, temp=High",anomaly=Normal
+"{humidity=Dry, temp=High} → {precip=None}",0.08013937282229965,0.8090452261306532,1.2813337479672704,"humidity=Dry, temp=High",precip=None
+"{anomaly=AboveNormal, season=Summer} → {precip=None}",0.09432553509208562,0.7863070539419088,1.245321932494517,"anomaly=AboveNormal, season=Summer",precip=None
+"{anomaly=AboveNormal, wind=Light} → {precip=None}",0.10029865604778497,0.7764932562620424,1.2297792288769753,"anomaly=AboveNormal, wind=Light",precip=None
+"{solar=High, temp=High} → {anomaly=Normal}",0.10975609756097561,0.6391304347826087,1.2263734894730285,"solar=High, temp=High",anomaly=Normal
+{anomaly=AboveNormal} → {precip=None},0.141363862618218,0.7593582887700534,1.2026415468183187,anomaly=AboveNormal,precip=None

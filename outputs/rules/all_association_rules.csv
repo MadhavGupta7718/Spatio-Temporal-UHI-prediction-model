@@ -1,0 +1,368 @@
+rule,support,confidence,lift,antecedents_str,consequents_str
+"{humidity=VeryHumid, temp=Medium} → {season=Monsoon, uhi=Neutral}",0.09780985564957691,0.7373358348968105,4.937692307692308,"humidity=VeryHumid, temp=Medium","season=Monsoon, uhi=Neutral"
+"{season=Monsoon, uhi=Neutral} → {humidity=VeryHumid, temp=Medium}",0.09780985564957691,0.655,4.937692307692307,"season=Monsoon, uhi=Neutral","humidity=VeryHumid, temp=Medium"
+"{anomaly=Normal, humidity=VeryHumid} → {season=Monsoon, uhi=Neutral}",0.08511697361871579,0.6993865030674847,4.6835582822085895,"anomaly=Normal, humidity=VeryHumid","season=Monsoon, uhi=Neutral"
+"{season=Monsoon, temp=Medium, uhi=Neutral} → {humidity=VeryHumid}",0.09780985564957691,0.8273684210526316,4.3173588516746415,"season=Monsoon, temp=Medium, uhi=Neutral",humidity=VeryHumid
+"{season=Monsoon, temp=Medium} → {humidity=VeryHumid, uhi=Neutral}",0.09780985564957691,0.6571906354515051,4.300638392905778,"season=Monsoon, temp=Medium","humidity=VeryHumid, uhi=Neutral"
+"{humidity=VeryHumid, uhi=Neutral} → {season=Monsoon, temp=Medium}",0.09780985564957691,0.6400651465798046,4.300638392905777,"humidity=VeryHumid, uhi=Neutral","season=Monsoon, temp=Medium"
+"{season=Monsoon, temp=Medium} → {humidity=VeryHumid}",0.11772025883524141,0.7909698996655519,4.12742474916388,"season=Monsoon, temp=Medium",humidity=VeryHumid
+"{humidity=VeryHumid} → {season=Monsoon, temp=Medium}",0.11772025883524141,0.6142857142857142,4.12742474916388,humidity=VeryHumid,"season=Monsoon, temp=Medium"
+"{humidity=VeryHumid} → {season=Monsoon, uhi=Neutral}",0.11597809855649577,0.6051948051948052,4.052787878787879,humidity=VeryHumid,"season=Monsoon, uhi=Neutral"
+"{season=Monsoon, uhi=Neutral} → {humidity=VeryHumid}",0.11597809855649577,0.7766666666666667,4.052787878787879,"season=Monsoon, uhi=Neutral",humidity=VeryHumid
+"{anomaly=Normal, season=Monsoon, uhi=Neutral} → {humidity=VeryHumid}",0.08511697361871579,0.7402597402597403,3.862809917355372,"anomaly=Normal, season=Monsoon, uhi=Neutral",humidity=VeryHumid
+"{humidity=Moderate, precip=None, temp=Low} → {season=Winter, solar=Medium}",0.08138377302140368,0.6044362292051755,3.719180350607037,"humidity=Moderate, precip=None, temp=Low","season=Winter, solar=Medium"
+"{precip=None, temp=Low, uhi=Neutral} → {season=Winter, wind=Light}",0.10029865604778497,0.6277258566978193,3.6982441234777683,"precip=None, temp=Low, uhi=Neutral","season=Winter, wind=Light"
+"{humidity=Dry, uhi=Mild} → {season=Summer}",0.08387257341961175,0.9232876712328767,3.6657804970491092,"humidity=Dry, uhi=Mild",season=Summer
+"{humidity=Moderate, solar=Medium, temp=Low} → {precip=None, season=Winter}",0.08138377302140368,0.7748815165876777,3.658606267507978,"humidity=Moderate, solar=Medium, temp=Low","precip=None, season=Winter"
+"{humidity=Moderate, season=Winter} → {precip=None, solar=Medium, temp=Low}",0.08138377302140368,0.6687116564417177,3.6260235298013788,"humidity=Moderate, season=Winter","precip=None, solar=Medium, temp=Low"
+"{season=Summer, temp=High} → {humidity=Dry}",0.08611249377799901,0.7424892703862661,3.598699503512687,"season=Summer, temp=High",humidity=Dry
+"{temp=Low, uhi=Neutral} → {season=Winter, wind=Light}",0.11996017919362867,0.6085858585858586,3.5854809087946915,"temp=Low, uhi=Neutral","season=Winter, wind=Light"
+"{season=Winter, wind=Light} → {temp=Low, uhi=Neutral}",0.11996017919362867,0.7067448680351905,3.5854809087946915,"season=Winter, wind=Light","temp=Low, uhi=Neutral"
+"{humidity=Moderate, temp=Low} → {precip=None, season=Winter}",0.10627177700348432,0.7517605633802817,3.549440591847206,"humidity=Moderate, temp=Low","precip=None, season=Winter"
+"{humidity=Moderate, precip=None, season=Winter} → {solar=Medium, temp=Low}",0.08138377302140368,0.7108695652173913,3.539372878616454,"humidity=Moderate, precip=None, season=Winter","solar=Medium, temp=Low"
+"{anomaly=Normal, precip=None, temp=Low} → {season=Winter}",0.10602289696366352,0.8676171079429735,3.510660160840753,"anomaly=Normal, precip=None, temp=Low",season=Winter
+"{anomaly=Normal, temp=Low, uhi=Neutral} → {season=Winter}",0.08188153310104529,0.8657894736842104,3.5032649599830386,"anomaly=Normal, temp=Low, uhi=Neutral",season=Winter
+"{anomaly=Normal, temp=Low, wind=Light} → {season=Winter}",0.08362369337979095,0.8593350383631714,3.477148221695088,"anomaly=Normal, temp=Low, wind=Light",season=Winter
+"{solar=Medium, temp=Low, uhi=Neutral} → {precip=None, season=Winter}",0.09133897461423594,0.7354709418837676,3.4725290769553214,"solar=Medium, temp=Low, uhi=Neutral","precip=None, season=Winter"
+"{precip=None, season=Winter, uhi=Neutral} → {temp=Low, wind=Light}",0.10029865604778497,0.7274368231046932,3.4630819374818214,"precip=None, season=Winter, uhi=Neutral","temp=Low, wind=Light"
+"{humidity=Moderate, season=Winter} → {solar=Medium, temp=Low}",0.08461921353907417,0.6952965235173825,3.4618357267569304,"humidity=Moderate, season=Winter","solar=Medium, temp=Low"
+"{precip=None, season=Winter, wind=Light} → {temp=Low, uhi=Neutral}",0.10029865604778497,0.6807432432432433,3.4535686254436255,"precip=None, season=Winter, wind=Light","temp=Low, uhi=Neutral"
+"{humidity=Dry, temp=High} → {season=Summer}",0.08611249377799901,0.8693467336683417,3.4516157864420918,"humidity=Dry, temp=High",season=Summer
+"{anomaly=Normal, temp=Low} → {season=Winter}",0.12444001991040318,0.8503401360544218,3.440751930177912,"anomaly=Normal, temp=Low",season=Winter
+"{season=Winter, solar=Medium, wind=Light} → {precip=None, temp=Low}",0.10004977600796416,0.8854625550660793,3.437476856285514,"season=Winter, solar=Medium, wind=Light","precip=None, temp=Low"
+"{humidity=Moderate, season=Winter, solar=Medium} → {precip=None, temp=Low}",0.08138377302140368,0.8837837837837836,3.4309596553074813,"humidity=Moderate, season=Winter, solar=Medium","precip=None, temp=Low"
+"{anomaly=Normal, temp=Low} → {precip=None, season=Winter}",0.10602289696366352,0.7244897959183674,3.420681551116334,"anomaly=Normal, temp=Low","precip=None, season=Winter"
+"{season=Monsoon, solar=Medium} → {humidity=VeryHumid}",0.08063713290194126,0.6506024096385542,3.394961664841183,"season=Monsoon, solar=Medium",humidity=VeryHumid
+"{humidity=Moderate, season=Winter} → {precip=None, temp=Low}",0.10627177700348432,0.8732106339468303,3.3899133596119464,"humidity=Moderate, season=Winter","precip=None, temp=Low"
+"{precip=None, season=Winter, wind=Light} → {solar=Medium, temp=Low}",0.10004977600796416,0.6790540540540542,3.3809655380287356,"precip=None, season=Winter, wind=Light","solar=Medium, temp=Low"
+"{season=Winter, uhi=Neutral} → {temp=Low, wind=Light}",0.11996017919362867,0.7098674521354934,3.3794400742658914,"season=Winter, uhi=Neutral","temp=Low, wind=Light"
+"{season=Winter, solar=Medium} → {precip=None, temp=Low}",0.141363862618218,0.8698315467075037,3.376795318522464,"season=Winter, solar=Medium","precip=None, temp=Low"
+"{precip=None, solar=Medium, temp=Low, uhi=Neutral} → {season=Winter}",0.09133897461423594,0.8321995464852608,3.367349222334117,"precip=None, solar=Medium, temp=Low, uhi=Neutral",season=Winter
+"{season=Winter, solar=Medium} → {precip=None, temp=Low, wind=Light}",0.10004977600796416,0.6156202143950995,3.3653905053598776,"season=Winter, solar=Medium","precip=None, temp=Low, wind=Light"
+"{anomaly=Normal, season=Winter} → {temp=Low, uhi=Neutral}",0.08188153310104529,0.6579999999999999,3.338186868686868,"anomaly=Normal, season=Winter","temp=Low, uhi=Neutral"
+"{anomaly=Normal, season=Winter, uhi=Neutral} → {temp=Low}",0.08188153310104529,1.0,3.3372093023255816,"anomaly=Normal, season=Winter, uhi=Neutral",temp=Low
+"{anomaly=Normal, season=Winter, wind=Light} → {temp=Low}",0.08362369337979095,1.0,3.3372093023255816,"anomaly=Normal, season=Winter, wind=Light",temp=Low
+"{anomaly=Normal, precip=None, season=Winter} → {temp=Low}",0.10602289696366352,1.0,3.3372093023255816,"anomaly=Normal, precip=None, season=Winter",temp=Low
+"{anomaly=Normal, season=Winter} → {temp=Low}",0.12444001991040318,1.0,3.3372093023255816,"anomaly=Normal, season=Winter",temp=Low
+"{solar=Medium, temp=Low} → {precip=None, season=Winter}",0.141363862618218,0.7038413878562577,3.3231900075281358,"solar=Medium, temp=Low","precip=None, season=Winter"
+"{precip=None, season=Winter} → {solar=Medium, temp=Low}",0.141363862618218,0.6674500587544065,3.3231900075281358,"precip=None, season=Winter","solar=Medium, temp=Low"
+"{season=Winter, solar=Medium, uhi=Neutral} → {precip=None, temp=Low}",0.09133897461423594,0.8554778554778555,3.3210724862898777,"season=Winter, solar=Medium, uhi=Neutral","precip=None, temp=Low"
+"{precip=None, temp=Low, uhi=Neutral} → {season=Winter}",0.13091090094574415,0.8193146417445483,3.315212719566561,"precip=None, temp=Low, uhi=Neutral",season=Winter
+"{anomaly=Normal, season=Winter} → {precip=None, temp=Low}",0.10602289696366352,0.852,3.307571014492754,"anomaly=Normal, season=Winter","precip=None, temp=Low"
+"{solar=Medium, temp=Low, wind=Light} → {precip=None, season=Winter}",0.10004977600796416,0.7003484320557491,3.3066980023501764,"solar=Medium, temp=Low, wind=Light","precip=None, season=Winter"
+"{precip=None, season=Winter, uhi=Neutral} → {solar=Medium, temp=Low}",0.09133897461423594,0.6624548736462095,3.2983193089349068,"precip=None, season=Winter, uhi=Neutral","solar=Medium, temp=Low"
+"{solar=Medium, temp=Low, uhi=Neutral} → {season=Winter}",0.10104529616724739,0.8136272545090181,3.292199706563177,"solar=Medium, temp=Low, uhi=Neutral",season=Winter
+"{season=Winter} → {temp=Low, uhi=Neutral}",0.1600298656047785,0.6475327291037261,3.2850839716398625,season=Winter,"temp=Low, uhi=Neutral"
+"{temp=Low, uhi=Neutral} → {season=Winter}",0.1600298656047785,0.8118686868686869,3.2850839716398625,"temp=Low, uhi=Neutral",season=Winter
+"{precip=None, temp=Low, uhi=Neutral, wind=Light} → {season=Winter}",0.10029865604778497,0.806,3.2613373615307153,"precip=None, temp=Low, uhi=Neutral, wind=Light",season=Winter
+"{humidity=Moderate, solar=Medium, temp=Low} → {season=Winter}",0.08461921353907417,0.8056872037914693,3.260071686640608,"humidity=Moderate, solar=Medium, temp=Low",season=Winter
+"{humidity=Moderate, precip=None, solar=Medium, temp=Low} → {season=Winter}",0.08138377302140368,0.8034398034398034,3.2509779760535045,"humidity=Moderate, precip=None, solar=Medium, temp=Low",season=Winter
+"{temp=Low, uhi=Neutral, wind=Light} → {season=Winter}",0.11996017919362867,0.8006644518272426,3.2397480034661235,"temp=Low, uhi=Neutral, wind=Light",season=Winter
+"{season=Winter, wind=Light} → {precip=None, temp=Low}",0.1406172224987556,0.8284457478005864,3.2161304489495235,"season=Winter, wind=Light","precip=None, temp=Low"
+"{precip=None, season=Winter, solar=Medium, wind=Light} → {temp=Low}",0.10004977600796416,0.9594272076372315,3.2018094022312265,"precip=None, season=Winter, solar=Medium, wind=Light",temp=Low
+"{anomaly=Normal, season=Winter} → {temp=Low, wind=Light}",0.08362369337979095,0.672,3.1991658767772515,"anomaly=Normal, season=Winter","temp=Low, wind=Light"
+"{humidity=Moderate, precip=None, temp=Low} → {season=Winter}",0.10627177700348432,0.789279112754159,3.193679229653787,"humidity=Moderate, precip=None, temp=Low",season=Winter
+"{humidity=Moderate, temp=Low} → {season=Winter}",0.11149825783972125,0.7887323943661972,3.191467029771783,"humidity=Moderate, temp=Low",season=Winter
+"{precip=None, season=Winter, wind=Light} → {temp=Low}",0.1406172224987556,0.954391891891892,3.1850054996857327,"precip=None, season=Winter, wind=Light",temp=Low
+"{precip=None, season=Winter, solar=Medium} → {temp=Low, wind=Light}",0.10004977600796416,0.6688851913477537,3.184337320894875,"precip=None, season=Winter, solar=Medium","temp=Low, wind=Light"
+"{season=Winter, solar=Medium, wind=Light} → {temp=Low}",0.10776505724240916,0.9537444933920705,3.1828449953898166,"season=Winter, solar=Medium, wind=Light",temp=Low
+"{precip=None, season=Winter, solar=Medium, uhi=Neutral} → {temp=Low}",0.09133897461423594,0.9532467532467532,3.1811839323467233,"precip=None, season=Winter, solar=Medium, uhi=Neutral",temp=Low
+"{season=Winter, wind=Light} → {temp=Low}",0.16152314584370334,0.9516129032258064,3.1757314328582145,"season=Winter, wind=Light",temp=Low
+"{season=Winter, uhi=Neutral, wind=Light} → {temp=Low}",0.11996017919362867,0.9506903353057198,3.1726526306132743,"season=Winter, uhi=Neutral, wind=Light",temp=Low
+"{precip=None, season=Winter, uhi=Neutral, wind=Light} → {temp=Low}",0.10029865604778497,0.9504716981132075,3.1719229925405883,"precip=None, season=Winter, uhi=Neutral, wind=Light",temp=Low
+"{precip=None, season=Winter, uhi=Neutral} → {temp=Low}",0.13091090094574415,0.9494584837545127,3.168541684157502,"precip=None, season=Winter, uhi=Neutral",temp=Low
+"{season=Winter, wind=Light} → {solar=Medium, temp=Low}",0.10776505724240916,0.6348973607038123,3.1611122618437646,"season=Winter, wind=Light","solar=Medium, temp=Low"
+"{temp=Low, uhi=Neutral, wind=Light} → {precip=None, season=Winter}",0.10029865604778497,0.669435215946844,3.160741125351844,"temp=Low, uhi=Neutral, wind=Light","precip=None, season=Winter"
+"{precip=None, season=Winter} → {temp=Low, wind=Light}",0.1406172224987556,0.6639247943595771,3.1607225399724888,"precip=None, season=Winter","temp=Low, wind=Light"
+"{temp=Low, wind=Light} → {precip=None, season=Winter}",0.1406172224987556,0.6694312796208531,3.1607225399724888,"temp=Low, wind=Light","precip=None, season=Winter"
+"{season=Winter, uhi=Neutral} → {temp=Low}",0.1600298656047785,0.946980854197349,3.1602733157516183,"season=Winter, uhi=Neutral",temp=Low
+"{season=Winter, solar=Medium, uhi=Neutral} → {temp=Low}",0.10104529616724739,0.9463869463869464,3.158291321082019,"season=Winter, solar=Medium, uhi=Neutral",temp=Low
+"{season=Winter, solar=Medium} → {temp=Low, wind=Light}",0.10776505724240916,0.663093415007657,3.156764622631239,"season=Winter, solar=Medium","temp=Low, wind=Light"
+"{season=Winter, solar=Medium} → {temp=Low, uhi=Neutral}",0.10104529616724739,0.6217457886676876,3.154260831902486,"season=Winter, solar=Medium","temp=Low, uhi=Neutral"
+"{precip=None, season=Winter, solar=Medium} → {temp=Low}",0.141363862618218,0.9450915141430948,3.153968192547305,"precip=None, season=Winter, solar=Medium",temp=Low
+"{precip=None, season=Winter} → {temp=Low}",0.1998506719761075,0.9435957696827262,3.148976580220261,"precip=None, season=Winter",temp=Low
+"{temp=Low} → {precip=None, season=Winter}",0.1998506719761075,0.6669435215946844,3.148976580220261,temp=Low,"precip=None, season=Winter"
+{season=Winter} → {temp=Low},0.23270283723245397,0.9415911379657603,3.1422867046066654,season=Winter,temp=Low
+{temp=Low} → {season=Winter},0.23270283723245397,0.7765780730897011,3.1422867046066654,temp=Low,season=Winter
+"{precip=None, temp=Low} → {season=Winter}",0.1998506719761075,0.7758454106280194,3.139322114706326,"precip=None, temp=Low",season=Winter
+"{season=Winter} → {precip=None, temp=Low}",0.1998506719761075,0.808660624370594,3.1393221147063257,season=Winter,"precip=None, temp=Low"
+"{temp=Low, uhi=Neutral} → {precip=None, season=Winter}",0.13091090094574415,0.6641414141414141,3.1357464183551143,"temp=Low, uhi=Neutral","precip=None, season=Winter"
+"{precip=None, season=Winter} → {temp=Low, uhi=Neutral}",0.13091090094574415,0.618096357226792,3.135746418355114,"precip=None, season=Winter","temp=Low, uhi=Neutral"
+"{season=Winter, solar=Medium} → {temp=Low}",0.1525634644101543,0.9387442572741195,3.1327860678799104,"season=Winter, solar=Medium",temp=Low
+"{precip=None, season=Summer} → {humidity=Dry}",0.1172224987555998,0.6425648021828104,3.114385253522958,"precip=None, season=Summer",humidity=Dry
+"{season=Winter} → {temp=Low, wind=Light}",0.16152314584370334,0.6535750251762337,3.1114507715143445,season=Winter,"temp=Low, wind=Light"
+"{temp=Low, wind=Light} → {season=Winter}",0.16152314584370334,0.768957345971564,3.1114507715143445,"temp=Low, wind=Light",season=Winter
+"{precip=None, temp=Low, wind=Light} → {season=Winter}",0.1406172224987556,0.7687074829931974,3.1104397448808325,"precip=None, temp=Low, wind=Light",season=Winter
+"{humidity=Moderate, precip=None, season=Winter, solar=Medium} → {temp=Low}",0.08138377302140368,0.9316239316239315,3.109024050884516,"humidity=Moderate, precip=None, season=Winter, solar=Medium",temp=Low
+"{precip=None, solar=Medium, temp=Low} → {season=Winter}",0.141363862618218,0.766531713900135,3.1016358775938997,"precip=None, solar=Medium, temp=Low",season=Winter
+"{precip=None, season=Winter, solar=Medium} → {temp=Low, uhi=Neutral}",0.09133897461423594,0.610648918469218,3.097963831324896,"precip=None, season=Winter, solar=Medium","temp=Low, uhi=Neutral"
+"{humidity=Moderate, precip=None, season=Winter} → {temp=Low}",0.10627177700348432,0.9282608695652174,3.0978008088978766,"humidity=Moderate, precip=None, season=Winter",temp=Low
+"{precip=None, solar=Medium, temp=Low, wind=Light} → {season=Winter}",0.10004977600796416,0.7628083491461101,3.086569936424038,"precip=None, solar=Medium, temp=Low, wind=Light",season=Winter
+"{season=Winter, uhi=Neutral, wind=Light} → {precip=None, temp=Low}",0.10029865604778497,0.7948717948717948,3.0857921466617118,"season=Winter, uhi=Neutral, wind=Light","precip=None, temp=Low"
+"{solar=Medium, temp=Low} → {season=Winter}",0.1525634644101543,0.7596034696406444,3.073601954699002,"solar=Medium, temp=Low",season=Winter
+"{season=Winter} → {solar=Medium, temp=Low}",0.1525634644101543,0.6173212487411883,3.073601954699002,season=Winter,"solar=Medium, temp=Low"
+"{humidity=Moderate, season=Winter, solar=Medium} → {temp=Low}",0.08461921353907417,0.918918918918919,3.066624764299183,"humidity=Moderate, season=Winter, solar=Medium",temp=Low
+"{humidity=Moderate, season=Winter} → {temp=Low}",0.11149825783972125,0.9161554192229039,3.057402387406668,"humidity=Moderate, season=Winter",temp=Low
+"{solar=Medium, temp=Low, wind=Light} → {season=Winter}",0.10776505724240916,0.7543554006968641,3.0523665659617323,"solar=Medium, temp=Low, wind=Light",season=Winter
+"{precip=None, temp=High} → {humidity=Dry}",0.08013937282229965,0.62890625,3.0481849366706877,"precip=None, temp=High",humidity=Dry
+"{season=Winter, uhi=Neutral} → {precip=None, temp=Low}",0.13091090094574415,0.7746686303387335,3.0073609243488226,"season=Winter, uhi=Neutral","precip=None, temp=Low"
+"{precip=None, uhi=Mild} → {season=Summer}",0.10104529616724739,0.7518518518518519,2.9851193090323527,"precip=None, uhi=Mild",season=Summer
+{uhi=Strong} → {temp=High},0.08188153310104529,0.8308080808080807,2.862938995443283,uhi=Strong,temp=High
+"{humidity=Dry, wind=Light} → {season=Summer}",0.09482329517172723,0.7042513863216266,2.796128527905431,"humidity=Dry, wind=Light",season=Summer
+"{humidity=VeryHumid, season=Monsoon} → {temp=Medium, uhi=Neutral}",0.09780985564957691,0.6463815789473685,2.7483187134502924,"humidity=VeryHumid, season=Monsoon","temp=Medium, uhi=Neutral"
+"{anomaly=AboveNormal, wind=Light} → {season=Summer}",0.08909905425584869,0.6897880539499036,2.738703953330744,"anomaly=AboveNormal, wind=Light",season=Summer
+"{humidity=VeryHumid, temp=Medium} → {season=Monsoon}",0.11772025883524141,0.8874296435272044,2.6569987389659517,"humidity=VeryHumid, temp=Medium",season=Monsoon
+"{anomaly=AboveNormal, precip=None} → {season=Summer}",0.09432553509208562,0.6672535211267606,2.6492338417858936,"anomaly=AboveNormal, precip=None",season=Summer
+"{humidity=VeryHumid, temp=Medium, uhi=Neutral} → {season=Monsoon}",0.09780985564957691,0.8811659192825112,2.6382449058696946,"humidity=VeryHumid, temp=Medium, uhi=Neutral",season=Monsoon
+{humidity=Dry} → {season=Summer},0.1368840219014435,0.6634499396863691,2.634132270414853,humidity=Dry,season=Summer
+"{season=Post-Monsoon} → {precip=None, temp=Medium}",0.10228969636635142,0.6125186289120715,2.6209796069954243,season=Post-Monsoon,"precip=None, temp=Medium"
+"{humidity=Dry, precip=None} → {season=Summer}",0.1172224987555998,0.6587412587412588,2.615437132037923,"humidity=Dry, precip=None",season=Summer
+"{precip=None, temp=High} → {season=Summer}",0.08337481333997014,0.6542968750000001,2.5977913475790517,"precip=None, temp=High",season=Summer
+"{humidity=Moderate, season=Winter, temp=Low} → {precip=None, solar=Medium}",0.08138377302140368,0.7299107142857142,2.597680469441984,"humidity=Moderate, season=Winter, temp=Low","precip=None, solar=Medium"
+"{season=Monsoon, uhi=Mild} → {temp=High}",0.09084121453459433,0.7448979591836735,2.5668953687821614,"season=Monsoon, uhi=Mild",temp=High
+{anomaly=AboveNormal} → {season=Summer},0.11996017919362867,0.6443850267379678,2.5584377840248567,anomaly=AboveNormal,season=Summer
+"{humidity=Moderate, season=Winter} → {precip=None, solar=Medium}",0.08735689397710304,0.7177914110429449,2.554549060735653,"humidity=Moderate, season=Winter","precip=None, solar=Medium"
+"{humidity=Moderate, temp=Low} → {precip=None, solar=Medium}",0.1012941762070682,0.716549295774648,2.550128494616949,"humidity=Moderate, temp=Low","precip=None, solar=Medium"
+"{humidity=VeryHumid, solar=Medium} → {season=Monsoon}",0.08063713290194126,0.8350515463917525,2.5001766865887194,"humidity=VeryHumid, solar=Medium",season=Monsoon
+"{anomaly=Normal, humidity=VeryHumid} → {season=Monsoon}",0.1012941762070682,0.8323108384458078,2.491970900801234,"anomaly=Normal, humidity=VeryHumid",season=Monsoon
+"{uhi=Cooling} → {precip=None, solar=Medium}",0.10627177700348432,0.6988543371522095,2.4871538765966146,uhi=Cooling,"precip=None, solar=Medium"
+"{humidity=Moderate, precip=None, solar=Medium} → {season=Winter}",0.08735689397710304,0.6041308089500861,2.4445091544425437,"humidity=Moderate, precip=None, solar=Medium",season=Winter
+"{anomaly=Normal, humidity=VeryHumid, uhi=Neutral} → {season=Monsoon}",0.08511697361871579,0.8162291169451075,2.4438216034913873,"anomaly=Normal, humidity=VeryHumid, uhi=Neutral",season=Monsoon
+"{season=Post-Monsoon} → {precip=None, solar=Medium}",0.11398705823792932,0.6825633383010432,2.4291758133689916,season=Post-Monsoon,"precip=None, solar=Medium"
+{humidity=VeryHumid} → {season=Monsoon},0.15131906421105026,0.7896103896103895,2.3641241024251456,humidity=VeryHumid,season=Monsoon
+"{uhi=Cooling} → {precip=None, temp=Low}",0.09208561473369836,0.6055646481178396,2.3508780252536035,uhi=Cooling,"precip=None, temp=Low"
+"{precip=None, solar=Medium, wind=Light} → {temp=Low}",0.13115978098556497,0.7036048064085448,2.348076505107586,"precip=None, solar=Medium, wind=Light",temp=Low
+"{humidity=Moderate, solar=Medium} → {precip=None, temp=Low}",0.1012941762070682,0.6047548291233283,2.3477342062005153,"humidity=Moderate, solar=Medium","precip=None, temp=Low"
+"{precip=None, solar=Medium, uhi=Neutral, wind=Light} → {temp=Low}",0.0858636137381782,0.7026476578411406,2.3448823000047367,"precip=None, solar=Medium, uhi=Neutral, wind=Light",temp=Low
+"{humidity=Moderate, precip=None, solar=Medium} → {temp=Low}",0.1012941762070682,0.7005163511187608,2.337769683384702,"humidity=Moderate, precip=None, solar=Medium",temp=Low
+"{anomaly=Normal, solar=High, temp=High} → {season=Monsoon}",0.08461921353907417,0.7709750566893424,2.308329193575095,"anomaly=Normal, solar=High, temp=High",season=Monsoon
+"{humidity=VeryHumid, wind=Light} → {season=Monsoon}",0.09109009457441514,0.7705263157894737,2.3069856459330147,"humidity=VeryHumid, wind=Light",season=Monsoon
+"{anomaly=Normal, temp=High} → {season=Monsoon}",0.12767546042807368,0.7656716417910447,2.292450563872144,"anomaly=Normal, temp=High",season=Monsoon
+"{humidity=VeryHumid, uhi=Neutral} → {season=Monsoon}",0.11597809855649577,0.758957654723127,2.2723486264363073,"humidity=VeryHumid, uhi=Neutral",season=Monsoon
+"{precip=Light, temp=High} → {season=Monsoon}",0.08909905425584869,0.7552742616033756,2.26132040471115,"precip=Light, temp=High",season=Monsoon
+"{precip=None, solar=Medium, uhi=Neutral} → {temp=Low}",0.10975609756097561,0.6743119266055047,2.250320034136975,"precip=None, solar=Medium, uhi=Neutral",temp=Low
+"{temp=Low, wind=Light} → {precip=None, solar=Medium}",0.13115978098556497,0.6244075829383886,2.222205197738216,"temp=Low, wind=Light","precip=None, solar=Medium"
+"{humidity=Dry, season=Summer} → {uhi=Mild}",0.08387257341961175,0.6127272727272728,2.219962291991147,"humidity=Dry, season=Summer",uhi=Mild
+"{season=Winter, temp=Low, wind=Light} → {precip=None, solar=Medium}",0.10004977600796416,0.6194144838212635,2.2044352488873664,"season=Winter, temp=Low, wind=Light","precip=None, solar=Medium"
+"{anomaly=Normal, uhi=Mild} → {temp=High}",0.0856147336983574,0.6358595194085028,2.1911522718553726,"anomaly=Normal, uhi=Mild",temp=High
+"{temp=Low} → {precip=None, solar=Medium}",0.18442010950721752,0.6154485049833888,2.1903207201268877,temp=Low,"precip=None, solar=Medium"
+"{precip=None, solar=Medium} → {temp=Low}",0.18442010950721752,0.6563330380868024,2.1903207201268873,"precip=None, solar=Medium",temp=Low
+"{season=Winter, wind=Light} → {precip=None, solar=Medium}",0.10428073668491787,0.6143695014662757,2.186480652693973,"season=Winter, wind=Light","precip=None, solar=Medium"
+"{humidity=Dry, season=Summer} → {temp=High}",0.08611249377799901,0.6290909090909091,2.1678278496803367,"humidity=Dry, season=Summer",temp=High
+"{season=Winter, temp=Low} → {precip=None, solar=Medium}",0.141363862618218,0.6074866310160427,2.1619851934654206,"season=Winter, temp=Low","precip=None, solar=Medium"
+"{anomaly=Normal, precip=None, solar=Medium} → {temp=Low}",0.08163265306122448,0.6456692913385826,2.154733565281084,"anomaly=Normal, precip=None, solar=Medium",temp=Low
+"{humidity=VeryHumid, season=Monsoon, uhi=Neutral} → {temp=Medium}",0.09780985564957691,0.8433476394849786,2.1542090371587057,"humidity=VeryHumid, season=Monsoon, uhi=Neutral",temp=Medium
+"{season=Winter} → {precip=None, solar=Medium}",0.14957690393230463,0.6052366565961732,2.153977755716053,season=Winter,"precip=None, solar=Medium"
+"{solar=High, uhi=Mild} → {temp=High}",0.09258337481333997,0.6231155778894473,2.147237042847169,"solar=High, uhi=Mild",temp=High
+"{anomaly=BelowNormal, precip=None} → {temp=Low}",0.09830761572921852,0.6340288924558588,2.115887117846878,"anomaly=BelowNormal, precip=None",temp=Low
+{uhi=Cooling} → {temp=Low},0.09556993529118965,0.6284779050736498,2.0973623111178776,uhi=Cooling,temp=Low
+"{precip=None, uhi=Cooling} → {temp=Low}",0.09208561473369836,0.6281833616298812,2.096379357997394,"precip=None, uhi=Cooling",temp=Low
+"{precip=Light, solar=High} → {season=Monsoon}",0.0858636137381782,0.6997971602434078,2.0952198136050764,"precip=Light, solar=High",season=Monsoon
+"{humidity=Moderate, solar=Medium} → {temp=Low}",0.10502737680438029,0.6270430906389302,2.0925740350392203,"humidity=Moderate, solar=Medium",temp=Low
+"{anomaly=Normal, season=Monsoon, solar=High} → {temp=High}",0.08461921353907417,0.6039076376554174,2.0810470738417384,"anomaly=Normal, season=Monsoon, solar=High",temp=High
+"{anomaly=Normal, precip=Light} → {season=Monsoon}",0.11249377799900448,0.6943164362519201,2.0788103136067173,"anomaly=Normal, precip=Light",season=Monsoon
+"{season=Winter, wind=Light} → {precip=None, uhi=Neutral}",0.1055251368840219,0.6217008797653959,2.054271492514277,"season=Winter, wind=Light","precip=None, uhi=Neutral"
+"{season=Winter, temp=Low, wind=Light} → {precip=None, uhi=Neutral}",0.10029865604778497,0.6209553158705701,2.0518079433946963,"season=Winter, temp=Low, wind=Light","precip=None, uhi=Neutral"
+"{season=Monsoon, uhi=Neutral} → {temp=Medium}",0.11821801891488302,0.7916666666666667,2.0221974994702268,"season=Monsoon, uhi=Neutral",temp=Medium
+"{anomaly=Normal, temp=Medium, uhi=Neutral} → {season=Monsoon}",0.08885017421602788,0.6710526315789475,2.009157580986744,"anomaly=Normal, temp=Medium, uhi=Neutral",season=Monsoon
+"{humidity=VeryHumid, season=Monsoon} → {temp=Medium}",0.11772025883524141,0.7779605263157895,1.9871871549503128,"humidity=VeryHumid, season=Monsoon",temp=Medium
+"{solar=Medium, temp=Low, wind=Light} → {precip=None, uhi=Neutral}",0.0858636137381782,0.6010452961672474,1.9860197368421055,"solar=Medium, temp=Low, wind=Light","precip=None, uhi=Neutral"
+"{anomaly=Normal, season=Monsoon, uhi=Neutral} → {temp=Medium}",0.08885017421602788,0.7727272727272728,1.9738195688608913,"anomaly=Normal, season=Monsoon, uhi=Neutral",temp=Medium
+"{anomaly=Normal, solar=High} → {season=Monsoon}",0.140119462419114,0.6486175115207373,1.941985962213355,"anomaly=Normal, solar=High",season=Monsoon
+"{anomaly=Normal, solar=High, wind=Light} → {season=Monsoon}",0.0858636137381782,0.6261343012704175,1.874670359541384,"anomaly=Normal, solar=High, wind=Light",season=Monsoon
+"{humidity=VeryHumid, uhi=Neutral} → {temp=Medium}",0.11100049776007964,0.726384364820847,1.855443342562087,"humidity=VeryHumid, uhi=Neutral",temp=Medium
+"{humidity=VeryHumid, wind=Light} → {temp=Medium}",0.08511697361871579,0.7200000000000001,1.839135410044501,"humidity=VeryHumid, wind=Light",temp=Medium
+"{solar=High, uhi=Neutral} → {temp=Medium}",0.09830761572921852,0.7181818181818183,1.8344911287060048,"solar=High, uhi=Neutral",temp=Medium
+{precip=Light} → {season=Monsoon},0.15032354405176704,0.608257804632427,1.8211474359262978,precip=Light,season=Monsoon
+"{anomaly=Normal, humidity=VeryHumid} → {uhi=Neutral}",0.10428073668491787,0.8568507157464214,1.810108399510579,"anomaly=Normal, humidity=VeryHumid",uhi=Neutral
+"{precip=None, season=Summer, wind=Light} → {solar=High}",0.0856147336983574,0.6705653021442495,1.804642588088141,"precip=None, season=Summer, wind=Light",solar=High
+"{solar=High, temp=High} → {season=Monsoon}",0.10328521652563465,0.6014492753623188,1.8007624354737684,"solar=High, temp=High",season=Monsoon
+{season=Post-Monsoon} → {temp=Medium},0.1172224987555998,0.7019374068554396,1.7929971396981286,season=Post-Monsoon,temp=Medium
+"{anomaly=Normal, humidity=VeryHumid} → {temp=Medium}",0.08511697361871579,0.6993865030674847,1.7864812265258445,"anomaly=Normal, humidity=VeryHumid",temp=Medium
+"{anomaly=Normal, season=Monsoon, temp=High} → {solar=High}",0.08461921353907417,0.6627680311890838,1.7836583719475811,"anomaly=Normal, season=Monsoon, temp=High",solar=High
+"{anomaly=Normal, humidity=VeryHumid, season=Monsoon} → {uhi=Neutral}",0.08511697361871579,0.8402948402948404,1.775133895007712,"anomaly=Normal, humidity=VeryHumid, season=Monsoon",uhi=Neutral
+"{anomaly=Normal, temp=High} → {solar=High}",0.10975609756097561,0.6582089552238806,1.7713888694504705,"anomaly=Normal, temp=High",solar=High
+{humidity=VeryHumid} → {temp=Medium},0.1326530612244898,0.6922077922077923,1.7681442524417732,humidity=VeryHumid,temp=Medium
+"{humidity=VeryHumid, temp=Medium} → {uhi=Neutral}",0.11100049776007964,0.8367729831144465,1.7676939254226318,"humidity=VeryHumid, temp=Medium",uhi=Neutral
+"{anomaly=Normal, season=Monsoon, temp=Medium} → {uhi=Neutral}",0.08885017421602788,0.8360655737704918,1.7661995138852977,"anomaly=Normal, season=Monsoon, temp=Medium",uhi=Neutral
+"{season=Summer, wind=Light} → {solar=High}",0.11572921851667496,0.6540084388185654,1.7600843316630916,"season=Summer, wind=Light",solar=High
+"{precip=None, season=Post-Monsoon} → {temp=Medium}",0.10228969636635142,0.6872909698996656,1.7555849440920892,"precip=None, season=Post-Monsoon",temp=Medium
+"{humidity=VeryHumid, season=Monsoon, temp=Medium} → {uhi=Neutral}",0.09780985564957691,0.8308668076109937,1.7552170520404693,"humidity=VeryHumid, season=Monsoon, temp=Medium",uhi=Neutral
+"{precip=None, season=Post-Monsoon} → {solar=Medium}",0.11398705823792932,0.7658862876254181,1.7366428350332561,"precip=None, season=Post-Monsoon",solar=Medium
+"{humidity=Moderate, precip=None, season=Winter, temp=Low} → {solar=Medium}",0.08138377302140368,0.765807962529274,1.7364652333197645,"humidity=Moderate, precip=None, season=Winter, temp=Low",solar=Medium
+"{humidity=Moderate, precip=None, season=Winter} → {solar=Medium}",0.08735689397710304,0.7630434782608696,1.7301967808420846,"humidity=Moderate, precip=None, season=Winter",solar=Medium
+"{humidity=VeryHumid, wind=Light} → {uhi=Neutral}",0.09656545545047288,0.8168421052631579,1.7255896839891527,"humidity=VeryHumid, wind=Light",uhi=Neutral
+"{humidity=Moderate, season=Winter, temp=Low} → {solar=Medium}",0.08461921353907417,0.7589285714285715,1.7208662528216705,"humidity=Moderate, season=Winter, temp=Low",solar=Medium
+"{humidity=Moderate, season=Winter} → {solar=Medium}",0.09208561473369836,0.7566462167689162,1.7156910265110075,"humidity=Moderate, season=Winter",solar=Medium
+"{humidity=Moderate, precip=None, temp=Low} → {solar=Medium}",0.1012941762070682,0.7523105360443623,1.7058598949358057,"humidity=Moderate, precip=None, temp=Low",solar=Medium
+"{precip=None, season=Summer} → {solar=High}",0.11548033847685416,0.6330150068212824,1.7035862675203703,"precip=None, season=Summer",solar=High
+{season=Post-Monsoon} → {solar=Medium},0.1249377799900448,0.7481371087928465,1.696396672195066,season=Post-Monsoon,solar=Medium
+"{humidity=Moderate, temp=Low} → {solar=Medium}",0.10502737680438029,0.7429577464788732,1.6846524973770387,"humidity=Moderate, temp=Low",solar=Medium
+{humidity=VeryHumid} → {uhi=Neutral},0.1528123444499751,0.7974025974025973,1.6845234681196823,humidity=VeryHumid,uhi=Neutral
+"{season=Monsoon, temp=Medium} → {uhi=Neutral}",0.11821801891488302,0.794314381270903,1.6779995709497835,"season=Monsoon, temp=Medium",uhi=Neutral
+"{season=Post-Monsoon, solar=Medium} → {temp=Medium}",0.08163265306122448,0.6533864541832669,1.668980783794257,"season=Post-Monsoon, solar=Medium",temp=Medium
+{season=Summer} → {solar=High},0.1560477849676456,0.6195652173913043,1.6673898482774687,season=Summer,solar=High
+"{temp=High, wind=Light} → {solar=High}",0.1095072175211548,0.6153846153846154,1.656138904631872,"temp=High, wind=Light",solar=High
+"{anomaly=BelowNormal, precip=None} → {solar=Medium}",0.11249377799900448,0.725521669341894,1.6451162908666648,"anomaly=BelowNormal, precip=None",solar=Medium
+"{precip=None, uhi=Cooling} → {solar=Medium}",0.10627177700348432,0.7249575551782682,1.643837165184132,"precip=None, uhi=Cooling",solar=Medium
+"{solar=Medium, temp=Low, uhi=Neutral} → {precip=None, wind=Light}",0.0858636137381782,0.6913827655310621,1.635065304240028,"solar=Medium, temp=Low, uhi=Neutral","precip=None, wind=Light"
+"{anomaly=Normal, season=Monsoon, wind=Light} → {solar=High}",0.0858636137381782,0.6042031523642732,1.6260470637639988,"anomaly=Normal, season=Monsoon, wind=Light",solar=High
+"{precip=None, temp=Low, wind=Light} → {solar=Medium}",0.13115978098556497,0.7170068027210885,1.625808878856283,"precip=None, temp=Low, wind=Light",solar=Medium
+"{precip=None, uhi=Mild} → {solar=High}",0.08113489298158287,0.6037037037037036,1.6247029346828408,"precip=None, uhi=Mild",solar=High
+"{precip=None, temp=Low} → {solar=Medium}",0.18442010950721752,0.7159420289855073,1.6233945104197338,"precip=None, temp=Low",solar=Medium
+"{humidity=VeryHumid, season=Monsoon} → {uhi=Neutral}",0.11597809855649577,0.7664473684210527,1.6191301400188167,"humidity=VeryHumid, season=Monsoon",uhi=Neutral
+{uhi=Cooling} → {solar=Medium},0.10851169736187158,0.7135842880523732,1.618048346159388,uhi=Cooling,solar=Medium
+"{precip=None, season=Winter, temp=Low, wind=Light} → {solar=Medium}",0.10004977600796416,0.7115044247787611,1.61333226792385,"precip=None, season=Winter, temp=Low, wind=Light",solar=Medium
+"{humidity=Moderate, uhi=Neutral} → {precip=None, wind=Light}",0.10353409656545545,0.6797385620915033,1.6075276883364686,"humidity=Moderate, uhi=Neutral","precip=None, wind=Light"
+"{precip=None, season=Winter, wind=Light} → {solar=Medium}",0.10428073668491787,0.7077702702702703,1.6048650936489537,"precip=None, season=Winter, wind=Light",solar=Medium
+"{precip=None, season=Winter, temp=Low} → {solar=Medium}",0.141363862618218,0.7073474470734744,1.6039063444363546,"precip=None, season=Winter, temp=Low",solar=Medium
+"{precip=None, season=Winter} → {solar=Medium}",0.14957690393230463,0.7062279670975323,1.6013679299085128,"precip=None, season=Winter",solar=Medium
+"{precip=None, season=Winter, temp=Low, uhi=Neutral} → {solar=Medium}",0.09133897461423594,0.6977186311787072,1.5820730587336602,"precip=None, season=Winter, temp=Low, uhi=Neutral",solar=Medium
+"{season=Post-Monsoon, temp=Medium} → {solar=Medium}",0.08163265306122448,0.6963906581740976,1.579061887439912,"season=Post-Monsoon, temp=Medium",solar=Medium
+"{precip=None, season=Winter, uhi=Neutral} → {solar=Medium}",0.09581881533101046,0.6949458483754514,1.575785789375036,"precip=None, season=Winter, uhi=Neutral",solar=Medium
+"{season=Monsoon, solar=High, temp=High} → {anomaly=Normal}",0.08461921353907417,0.819277108433735,1.5720417486565175,"season=Monsoon, solar=High, temp=High",anomaly=Normal
+"{season=Winter, wind=Light} → {uhi=Neutral}",0.12618218018914884,0.7434017595307918,1.5704459883253004,"season=Winter, wind=Light",uhi=Neutral
+"{humidity=Moderate, temp=Low} → {precip=None, wind=Light}",0.093827775012444,0.6637323943661972,1.5696743734922782,"humidity=Moderate, temp=Low","precip=None, wind=Light"
+"{season=Winter, temp=Low, wind=Light} → {uhi=Neutral}",0.11996017919362867,0.7426810477657935,1.5689234752486636,"season=Winter, temp=Low, wind=Light",uhi=Neutral
+"{season=Monsoon, solar=High, wind=Light} → {anomaly=Normal}",0.0858636137381782,0.8156028368794327,1.5649914988450624,"season=Monsoon, solar=High, wind=Light",anomaly=Normal
+"{precip=None, temp=Low, uhi=Neutral, wind=Light} → {solar=Medium}",0.0858636137381782,0.6900000000000001,1.5645711060948082,"precip=None, temp=Low, uhi=Neutral, wind=Light",solar=Medium
+"{precip=None, temp=Low, uhi=Neutral} → {solar=Medium}",0.10975609756097561,0.6869158878504673,1.5575778992004388,"precip=None, temp=Low, uhi=Neutral",solar=Medium
+"{season=Monsoon, solar=High} → {anomaly=Normal}",0.140119462419114,0.8112391930835735,1.5566184707783184,"season=Monsoon, solar=High",anomaly=Normal
+"{solar=Medium, uhi=Cooling} → {precip=None}",0.10627177700348432,0.9793577981651376,1.5510680461283102,"solar=Medium, uhi=Cooling",precip=None
+"{season=Winter, solar=Medium, temp=Low} → {precip=None, wind=Light}",0.10004977600796416,0.6557911908646004,1.5508940582071598,"season=Winter, solar=Medium, temp=Low","precip=None, wind=Light"
+"{solar=Medium, temp=Low} → {precip=None, wind=Light}",0.13115978098556497,0.6530359355638167,1.5443780983492734,"solar=Medium, temp=Low","precip=None, wind=Light"
+"{temp=Low, wind=Light} → {solar=Medium}",0.14285714285714285,0.6800947867298578,1.5421110909032554,"temp=Low, wind=Light",solar=Medium
+"{humidity=Moderate, solar=Medium, temp=Low} → {precip=None}",0.1012941762070682,0.9644549763033176,1.5274655478071464,"humidity=Moderate, solar=Medium, temp=Low",precip=None
+{uhi=Cooling} → {precip=None},0.14659034345445496,0.9639934533551555,1.5267346060626783,uhi=Cooling,precip=None
+"{temp=Low, uhi=Cooling} → {precip=None}",0.09208561473369836,0.9635416666666666,1.5260190842202077,"temp=Low, uhi=Cooling",precip=None
+"{humidity=Moderate, season=Winter, solar=Medium, temp=Low} → {precip=None}",0.08138377302140368,0.9617647058823527,1.5232048041920747,"humidity=Moderate, season=Winter, solar=Medium, temp=Low",precip=None
+{temp=Low} → {solar=Medium},0.20084619213539073,0.670265780730897,1.5198238752690432,temp=Low,solar=Medium
+"{season=Winter, solar=Medium} → {precip=None, wind=Light}",0.10428073668491787,0.6416539050535988,1.5174605005917363,"season=Winter, solar=Medium","precip=None, wind=Light"
+"{anomaly=Normal, precip=None, temp=Low} → {solar=Medium}",0.08163265306122448,0.6680244399185336,1.514741647625659,"anomaly=Normal, precip=None, temp=Low",solar=Medium
+"{precip=None, season=Winter, wind=Light} → {uhi=Neutral}",0.1055251368840219,0.7162162162162162,1.5130161707448773,"precip=None, season=Winter, wind=Light",uhi=Neutral
+"{season=Winter, temp=Low, wind=Light} → {solar=Medium}",0.10776505724240916,0.6671802773497689,1.5128275137648823,"season=Winter, temp=Low, wind=Light",solar=Medium
+"{season=Winter, solar=Medium, wind=Light} → {uhi=Neutral}",0.08088601294176206,0.7158590308370043,1.5122616119364265,"season=Winter, solar=Medium, wind=Light",uhi=Neutral
+"{humidity=Moderate, season=Winter, temp=Low} → {precip=None}",0.10627177700348432,0.953125,1.5095215806070161,"humidity=Moderate, season=Winter, temp=Low",precip=None
+"{season=Winter, wind=Light} → {solar=Medium}",0.11299153807864609,0.6656891495601173,1.5094463899167896,"season=Winter, wind=Light",solar=Medium
+"{humidity=Moderate, temp=Low} → {precip=None}",0.13464410154305625,0.9524647887323945,1.5084759641808283,"humidity=Moderate, temp=Low",precip=None
+"{precip=None, season=Winter, temp=Low, wind=Light} → {uhi=Neutral}",0.10029865604778497,0.7132743362831858,1.5068014107181076,"precip=None, season=Winter, temp=Low, wind=Light",uhi=Neutral
+"{temp=Low, wind=Light} → {uhi=Neutral}",0.14982578397212543,0.7132701421800948,1.5067925506202002,"temp=Low, wind=Light",uhi=Neutral
+"{humidity=Moderate, season=Winter, solar=Medium} → {precip=None}",0.08735689397710304,0.9486486486486486,1.5024321128381042,"humidity=Moderate, season=Winter, solar=Medium",precip=None
+{anomaly=BelowNormal} → {solar=Medium},0.16226978596316574,0.6619289340101522,1.5009201223774218,anomaly=BelowNormal,solar=Medium
+"{humidity=Moderate, temp=Low, wind=Light} → {precip=None}",0.093827775012444,0.9472361809045227,1.5001951024337297,"humidity=Moderate, temp=Low, wind=Light",precip=None
+"{temp=Low, uhi=Neutral} → {precip=None, wind=Light}",0.12444001991040318,0.6313131313131313,1.4930053923579527,"temp=Low, uhi=Neutral","precip=None, wind=Light"
+{season=Winter} → {solar=Medium},0.16251866600298656,0.6576032225579054,1.4911115960709163,season=Winter,solar=Medium
+"{humidity=Moderate, season=Winter} → {precip=None}",0.11448481831757093,0.9406952965235174,1.4898359091176558,"humidity=Moderate, season=Winter",precip=None
+"{season=Winter, temp=Low} → {solar=Medium}",0.1525634644101543,0.6556149732620321,1.4866032520128922,"season=Winter, temp=Low",solar=Medium
+"{humidity=Moderate, temp=Low, uhi=Neutral} → {precip=None}",0.08138377302140368,0.9369627507163323,1.4839244510753737,"humidity=Moderate, temp=Low, uhi=Neutral",precip=None
+"{season=Winter, temp=Low, uhi=Neutral} → {precip=None, wind=Light}",0.10029865604778497,0.6267496111975117,1.4822130298949983,"season=Winter, temp=Low, uhi=Neutral","precip=None, wind=Light"
+"{anomaly=BelowNormal, temp=Low} → {precip=None}",0.09830761572921852,0.933806146572104,1.478925146600991,"anomaly=BelowNormal, temp=Low",precip=None
+"{season=Monsoon, uhi=Neutral} → {anomaly=Normal}",0.11498257839721254,0.77,1.4774880611270298,"season=Monsoon, uhi=Neutral",anomaly=Normal
+"{season=Winter, uhi=Neutral} → {precip=None, wind=Light}",0.1055251368840219,0.6244477172312224,1.4767692335697773,"season=Winter, uhi=Neutral","precip=None, wind=Light"
+"{season=Winter, solar=Medium, temp=Low, wind=Light} → {precip=None}",0.10004977600796416,0.9284064665127021,1.4703733474371452,"season=Winter, solar=Medium, temp=Low, wind=Light",precip=None
+"{season=Winter, solar=Medium, temp=Low} → {precip=None}",0.141363862618218,0.9265905383360521,1.4674973523982096,"season=Winter, solar=Medium, temp=Low",precip=None
+"{season=Winter, solar=Medium, wind=Light} → {precip=None}",0.10428073668491787,0.9229074889867842,1.461664284883287,"season=Winter, solar=Medium, wind=Light",precip=None
+"{temp=Low, uhi=Neutral, wind=Light} → {solar=Medium}",0.09631657541065207,0.6428571428571429,1.4576749435665914,"temp=Low, uhi=Neutral, wind=Light",solar=Medium
+"{season=Winter, solar=Medium} → {precip=None}",0.14957690393230463,0.9203675344563553,1.4576416056151502,"season=Winter, solar=Medium",precip=None
+"{anomaly=BelowNormal, wind=Light} → {solar=Medium}",0.11100049776007964,0.641726618705036,1.4551114864316224,"anomaly=BelowNormal, wind=Light",solar=Medium
+"{solar=Medium, temp=Low} → {precip=None}",0.18442010950721752,0.9182156133828997,1.454233478349425,"solar=Medium, temp=Low",precip=None
+"{solar=Medium, temp=Low, wind=Light} → {precip=None}",0.13115978098556497,0.9181184668989548,1.4540796216003156,"solar=Medium, temp=Low, wind=Light",precip=None
+"{season=Winter, uhi=Neutral, wind=Light} → {solar=Medium}",0.08088601294176206,0.641025641025641,1.45352202349945,"season=Winter, uhi=Neutral, wind=Light",solar=Medium
+"{anomaly=BelowNormal, uhi=Neutral} → {solar=Medium}",0.08486809357889498,0.6409774436090226,1.4534127361292624,"anomaly=BelowNormal, uhi=Neutral",solar=Medium
+"{season=Winter, temp=Low} → {uhi=Neutral}",0.1600298656047785,0.6877005347593582,1.4527764188554686,"season=Winter, temp=Low",uhi=Neutral
+"{humidity=Moderate, uhi=Neutral, wind=Light} → {precip=None}",0.10353409656545545,0.9162995594713657,1.4511989081418792,"humidity=Moderate, uhi=Neutral, wind=Light",precip=None
+"{anomaly=Normal, temp=Medium, wind=Light} → {uhi=Neutral}",0.08362369337979095,0.6857142857142858,1.4485804416403787,"anomaly=Normal, temp=Medium, wind=Light",uhi=Neutral
+"{anomaly=Normal, solar=Medium, temp=Low} → {precip=None}",0.08163265306122448,0.9136490250696377,1.4470010968584173,"anomaly=Normal, solar=Medium, temp=Low",precip=None
+"{humidity=Moderate, solar=Medium, uhi=Neutral} → {precip=None}",0.08412145345943256,0.9135135135135135,1.4467864790292855,"humidity=Moderate, solar=Medium, uhi=Neutral",precip=None
+"{season=Post-Monsoon, solar=Medium} → {precip=None}",0.11398705823792932,0.9123505976095617,1.4449446989338663,"season=Post-Monsoon, solar=Medium",precip=None
+{season=Winter} → {uhi=Neutral},0.16898954703832753,0.6837865055387714,1.4445079806807484,season=Winter,uhi=Neutral
+"{temp=Low} → {precip=None, wind=Light}",0.18292682926829268,0.6104651162790697,1.443701493354504,temp=Low,"precip=None, wind=Light"
+"{anomaly=BelowNormal, season=Post-Monsoon} → {precip=None}",0.08636137381781982,0.910761154855643,1.442427402526596,"anomaly=BelowNormal, season=Post-Monsoon",precip=None
+"{season=Monsoon, temp=Medium, uhi=Neutral} → {anomaly=Normal}",0.08885017421602788,0.7515789473684211,1.4421414567938473,"season=Monsoon, temp=Medium, uhi=Neutral",anomaly=Normal
+"{precip=None, temp=Low, wind=Light} → {uhi=Neutral}",0.12444001991040318,0.6802721088435374,1.4370837714686293,"precip=None, temp=Low, wind=Light",uhi=Neutral
+"{precip=Light, season=Monsoon} → {anomaly=Normal}",0.11249377799900448,0.7483443708609272,1.4359349007255042,"precip=Light, season=Monsoon",anomaly=Normal
+"{humidity=Moderate, uhi=Neutral} → {precip=None}",0.13787954206072672,0.9052287581699346,1.433665412032636,"humidity=Moderate, uhi=Neutral",precip=None
+"{season=Winter, uhi=Neutral} → {solar=Medium}",0.10676953708312593,0.6318114874815906,1.432628982336925,"season=Winter, uhi=Neutral",solar=Medium
+"{season=Winter, temp=Low, uhi=Neutral} → {solar=Medium}",0.10104529616724739,0.6314152410575428,1.4317304958065502,"season=Winter, temp=Low, uhi=Neutral",solar=Medium
+"{season=Winter, solar=Medium, temp=Low, uhi=Neutral} → {precip=None}",0.09133897461423594,0.9039408866995075,1.431625732265913,"season=Winter, solar=Medium, temp=Low, uhi=Neutral",precip=None
+"{season=Post-Monsoon, wind=Light} → {precip=None}",0.09532105525136884,0.9033018867924528,1.4306137095514686,"season=Post-Monsoon, wind=Light",precip=None
+"{season=Winter, temp=Low} → {precip=None, wind=Light}",0.1406172224987556,0.6042780748663101,1.4290696320263885,"season=Winter, temp=Low","precip=None, wind=Light"
+"{temp=Low, uhi=Neutral} → {solar=Medium}",0.12419113987058238,0.630050505050505,1.4286359646122624,"temp=Low, uhi=Neutral",solar=Medium
+"{solar=Medium, temp=Low, wind=Light} → {uhi=Neutral}",0.09631657541065207,0.6742160278745645,1.4242902208201893,"solar=Medium, temp=Low, wind=Light",uhi=Neutral
+"{season=Winter, solar=Medium, uhi=Neutral} → {precip=None}",0.09581881533101046,0.8974358974358975,1.421323388213416,"season=Winter, solar=Medium, uhi=Neutral",precip=None
+"{season=Monsoon, temp=High} → {anomaly=Normal}",0.12767546042807368,0.7370689655172414,1.4142994763363306,"season=Monsoon, temp=High",anomaly=Normal
+"{solar=Medium, temp=Low, uhi=Neutral, wind=Light} → {precip=None}",0.0858636137381782,0.8914728682170543,1.4118793789894064,"solar=Medium, temp=Low, uhi=Neutral, wind=Light",precip=None
+{season=Post-Monsoon} → {precip=None},0.1488302638128422,0.8912071535022354,1.4114585505604975,season=Post-Monsoon,precip=None
+"{humidity=VeryHumid, season=Monsoon, uhi=Neutral} → {anomaly=Normal}",0.08511697361871579,0.7339055793991417,1.408229521502269,"humidity=VeryHumid, season=Monsoon, uhi=Neutral",anomaly=Normal
+"{solar=Medium, temp=Low, uhi=Neutral} → {precip=None}",0.10975609756097561,0.8837675350701403,1.399675977891929,"solar=Medium, temp=Low, uhi=Neutral",precip=None
+"{season=Winter, solar=Medium, temp=Low} → {uhi=Neutral}",0.10104529616724739,0.6623164763458401,1.399152261807353,"season=Winter, solar=Medium, temp=Low",uhi=Neutral
+"{anomaly=Normal, solar=Medium, wind=Light} → {uhi=Neutral}",0.08760577401692385,0.6616541353383459,1.3977530577231725,"anomaly=Normal, solar=Medium, wind=Light",uhi=Neutral
+"{anomaly=Normal, season=Winter, temp=Low} → {uhi=Neutral}",0.08188153310104529,0.6579999999999999,1.3900336487907463,"anomaly=Normal, season=Winter, temp=Low",uhi=Neutral
+"{anomaly=Normal, season=Winter} → {uhi=Neutral}",0.08188153310104529,0.6579999999999999,1.3900336487907463,"anomaly=Normal, season=Winter",uhi=Neutral
+{temp=Low} → {uhi=Neutral},0.19711299153807865,0.6578073089700998,1.38962658645734,temp=Low,uhi=Neutral
+"{season=Winter, solar=Medium} → {uhi=Neutral}",0.10676953708312593,0.6569678407350689,1.3878531987768172,"season=Winter, solar=Medium",uhi=Neutral
+"{precip=None, solar=Medium, wind=Light} → {uhi=Neutral}",0.12220009955201593,0.6555407209612817,1.3848383894965455,"precip=None, solar=Medium, wind=Light",uhi=Neutral
+"{anomaly=Normal, temp=Low} → {solar=Medium}",0.08934793429566949,0.6105442176870749,1.3844055680963132,"anomaly=Normal, temp=Low",solar=Medium
+"{precip=None, season=Winter, temp=Low} → {uhi=Neutral}",0.13091090094574415,0.6550435865504358,1.3837881865192698,"precip=None, season=Winter, temp=Low",uhi=Neutral
+"{humidity=Moderate, precip=None, uhi=Neutral} → {solar=Medium}",0.08412145345943256,0.6101083032490976,1.3834171345682134,"humidity=Moderate, precip=None, uhi=Neutral",solar=Medium
+"{precip=None, solar=Medium, temp=Low, wind=Light} → {uhi=Neutral}",0.0858636137381782,0.6546489563567363,1.3829545250480368,"precip=None, solar=Medium, temp=Low, wind=Light",uhi=Neutral
+"{season=Post-Monsoon, temp=Medium} → {precip=None}",0.10228969636635142,0.8726114649681529,1.3820074364375399,"season=Post-Monsoon, temp=Medium",precip=None
+"{temp=Low, wind=Light} → {precip=None}",0.18292682926829268,0.8708530805687204,1.3792225769511701,"temp=Low, wind=Light",precip=None
+"{season=Winter, temp=Low, wind=Light} → {precip=None}",0.1406172224987556,0.8705701078582435,1.3787744159930715,"season=Winter, temp=Low, wind=Light",precip=None
+"{precip=None, season=Winter} → {uhi=Neutral}",0.13787954206072672,0.6509988249118684,1.375243574393211,"precip=None, season=Winter",uhi=Neutral
+"{humidity=Moderate, solar=Medium, wind=Light} → {precip=None}",0.09507217521154804,0.8681818181818182,1.3749919375067188,"humidity=Moderate, solar=Medium, wind=Light",precip=None
+"{season=Winter, wind=Light} → {precip=None}",0.14733698357391736,0.8680351906158357,1.3747597145819581,"season=Winter, wind=Light",precip=None
+"{humidity=Moderate, uhi=Neutral} → {solar=Medium}",0.09208561473369836,0.6045751633986929,1.370870771182815,"humidity=Moderate, uhi=Neutral",solar=Medium
+"{anomaly=Normal, temp=Medium} → {uhi=Neutral}",0.13240418118466898,0.648780487804878,1.37055730809674,"anomaly=Normal, temp=Medium",uhi=Neutral
+"{season=Monsoon, temp=Medium} → {anomaly=Normal}",0.10627177700348432,0.714046822742475,1.370124228165838,"season=Monsoon, temp=Medium",anomaly=Normal
+"{season=Monsoon, wind=Light} → {anomaly=Normal}",0.14211050273768044,0.71375,1.3695546800382046,"season=Monsoon, wind=Light",anomaly=Normal
+"{humidity=Moderate, solar=Medium} → {precip=None}",0.1445993031358885,0.8632986627043091,1.3672581894938567,"humidity=Moderate, solar=Medium",precip=None
+{season=Monsoon} → {anomaly=Normal},0.2379293180686909,0.7123695976154992,1.3669059423204757,season=Monsoon,anomaly=Normal
+{humidity=Dry} → {precip=None},0.17794922847187655,0.8624849215922799,1.3659694185880098,humidity=Dry,precip=None
+"{anomaly=Normal, temp=Low} → {uhi=Neutral}",0.09457441513190643,0.6462585034013606,1.3652295828951981,"anomaly=Normal, temp=Low",uhi=Neutral
+"{precip=None, season=Winter, solar=Medium, temp=Low} → {uhi=Neutral}",0.09133897461423594,0.6461267605633804,1.3649512744183292,"precip=None, season=Winter, solar=Medium, temp=Low",uhi=Neutral
+"{precip=Light, solar=High} → {anomaly=Normal}",0.08710801393728224,0.7099391480730224,1.3622423576682923,"precip=Light, solar=High",anomaly=Normal
+{temp=Low} → {precip=None},0.25759084121453457,0.8596345514950166,1.3614551154540704,temp=Low,precip=None
+"{season=Winter, temp=Low} → {precip=None}",0.1998506719761075,0.8588235294117647,1.360170650838183,"season=Winter, temp=Low",precip=None
+{season=Winter} → {precip=None},0.2117969138875062,0.8569989929506545,1.357281022339665,season=Winter,precip=None
+"{humidity=Dry, season=Summer} → {precip=None}",0.1172224987555998,0.8563636363636364,1.3562747697710253,"humidity=Dry, season=Summer",precip=None
+"{precip=None, season=Winter, solar=Medium} → {uhi=Neutral}",0.09581881533101046,0.6405990016638935,1.3532738110859748,"precip=None, season=Winter, solar=Medium",uhi=Neutral
+"{precip=Light, temp=High} → {anomaly=Normal}",0.08312593330014932,0.7046413502109704,1.3520768601469337,"precip=Light, temp=High",anomaly=Normal
+"{anomaly=Normal, season=Winter} → {precip=None}",0.10602289696366352,0.852,1.3493638155301537,"anomaly=Normal, season=Winter",precip=None
+"{anomaly=Normal, season=Winter, temp=Low} → {precip=None}",0.10602289696366352,0.852,1.3493638155301537,"anomaly=Normal, season=Winter, temp=Low",precip=None
+"{humidity=Dry, wind=Light} → {precip=None}",0.1134892981582877,0.842883548983364,1.334925541905856,"humidity=Dry, wind=Light",precip=None
+"{anomaly=Normal, temp=Low, wind=Light} → {precip=None}",0.08188153310104529,0.8414322250639386,1.3326269926318113,"anomaly=Normal, temp=Low, wind=Light",precip=None
+"{temp=Medium, wind=Light} → {uhi=Neutral}",0.1602787456445993,0.6307541625857003,1.332476459132147,"temp=Medium, wind=Light",uhi=Neutral
+"{season=Winter, uhi=Neutral, wind=Light} → {precip=None}",0.1055251368840219,0.8362919132149901,1.3244859705549192,"season=Winter, uhi=Neutral, wind=Light",precip=None
+"{solar=Medium, temp=Medium} → {uhi=Neutral}",0.11249377799900448,0.6269070735090153,1.3243494328912846,"solar=Medium, temp=Medium",uhi=Neutral
+"{season=Winter, temp=Low, uhi=Neutral, wind=Light} → {precip=None}",0.10029865604778497,0.8360995850622407,1.3241813688530089,"season=Winter, temp=Low, uhi=Neutral, wind=Light",precip=None
+"{anomaly=Normal, temp=Low} → {precip=None}",0.12220009955201593,0.8350340136054422,1.3224937590329786,"anomaly=Normal, temp=Low",precip=None
+"{solar=Medium, wind=Light} → {uhi=Neutral}",0.17645594823295171,0.6230228471001757,1.3161439535481105,"solar=Medium, wind=Light",uhi=Neutral
+"{temp=Low, uhi=Neutral, wind=Light} → {precip=None}",0.12444001991040318,0.8305647840531561,1.3154155704870247,"temp=Low, uhi=Neutral, wind=Light",precip=None
+"{precip=None, temp=Low} → {uhi=Neutral}",0.15978098556495768,0.6202898550724638,1.3103704719669609,"precip=None, temp=Low",uhi=Neutral
+"{humidity=VeryHumid, uhi=Neutral} → {anomaly=Normal}",0.10428073668491787,0.6824104234527688,1.3094198096624763,"humidity=VeryHumid, uhi=Neutral",anomaly=Normal
+"{solar=Medium, temp=Low} → {uhi=Neutral}",0.12419113987058238,0.6183395291201983,1.3062503827576009,"solar=Medium, temp=Low",uhi=Neutral
+"{humidity=Moderate, temp=Low} → {uhi=Neutral}",0.08685913389746143,0.61443661971831,1.2980054353460406,"humidity=Moderate, temp=Low",uhi=Neutral
+"{humidity=Moderate, temp=Medium} → {precip=None}",0.09606769537083126,0.8195329087048833,1.2979437237588574,"humidity=Moderate, temp=Medium",precip=None
+"{season=Winter, temp=Low, uhi=Neutral} → {precip=None}",0.13091090094574415,0.8180404354587869,1.295580003812931,"season=Winter, temp=Low, uhi=Neutral",precip=None
+"{season=Winter, uhi=Neutral} → {precip=None}",0.13787954206072672,0.8159057437407953,1.292199163717192,"season=Winter, uhi=Neutral",precip=None
+"{humidity=Humid, temp=Low} → {precip=None}",0.08013937282229965,0.8151898734177214,1.291065396686009,"humidity=Humid, temp=Low",precip=None
+"{humidity=VeryHumid, season=Monsoon} → {anomaly=Normal}",0.1012941762070682,0.6694078947368421,1.2844703538933295,"humidity=VeryHumid, season=Monsoon",anomaly=Normal
+"{temp=Low, uhi=Neutral} → {precip=None}",0.15978098556495768,0.8106060606060606,1.2838057357174424,"temp=Low, uhi=Neutral",precip=None
+"{humidity=Dry, temp=High} → {precip=None}",0.08013937282229965,0.8090452261306532,1.2813337479672704,"humidity=Dry, temp=High",precip=None
+"{humidity=Moderate, precip=None, temp=Low} → {uhi=Neutral}",0.08138377302140368,0.6044362292051755,1.2768794789413223,"humidity=Moderate, precip=None, temp=Low",uhi=Neutral
+"{precip=None, temp=Medium, wind=Light} → {uhi=Neutral}",0.09457441513190643,0.6031746031746033,1.2742142773688516,"precip=None, temp=Medium, wind=Light",uhi=Neutral
+{temp=Medium} → {uhi=Neutral},0.23519163763066203,0.6007628734901462,1.2691194667105192,temp=Medium,uhi=Neutral
+"{season=Monsoon, solar=Medium} → {anomaly=Normal}",0.08138377302140368,0.6566265060240963,1.2599452250261793,"season=Monsoon, solar=Medium",anomaly=Normal
+{precip=Light} → {anomaly=Normal},0.16202090592334495,0.6555891238670695,1.257954679893928,precip=Light,anomaly=Normal
+"{anomaly=AboveNormal, season=Summer} → {precip=None}",0.09432553509208562,0.7863070539419088,1.245321932494517,"anomaly=AboveNormal, season=Summer",precip=None
+"{humidity=Moderate, wind=Light} → {precip=None}",0.1794425087108014,0.7819956616052061,1.2384937202718638,"humidity=Moderate, wind=Light",precip=None
+{wind=Calm} → {anomaly=Normal},0.13937282229965156,0.6422018348623852,1.2322669400559045,wind=Calm,anomaly=Normal
+"{humidity=VeryHumid, temp=Medium} → {anomaly=Normal}",0.08511697361871579,0.6416510318949343,1.2312100506942916,"humidity=VeryHumid, temp=Medium",anomaly=Normal
+"{anomaly=AboveNormal, wind=Light} → {precip=None}",0.10029865604778497,0.7764932562620424,1.2297792288769753,"anomaly=AboveNormal, wind=Light",precip=None
+"{solar=High, temp=High} → {anomaly=Normal}",0.10975609756097561,0.6391304347826087,1.2263734894730285,"solar=High, temp=High",anomaly=Normal
+{humidity=Moderate} → {precip=None},0.266052762568442,0.7729573391178597,1.2241791835142137,humidity=Moderate,precip=None
+{humidity=VeryHumid} → {anomaly=Normal},0.12170233947237431,0.635064935064935,1.2185725449335765,humidity=VeryHumid,anomaly=Normal
+"{precip=Light, wind=Light} → {anomaly=Normal}",0.09780985564957691,0.6318327974276527,1.2123706686075975,"precip=Light, wind=Light",anomaly=Normal
+{anomaly=AboveNormal} → {precip=None},0.141363862618218,0.7593582887700534,1.2026415468183187,anomaly=AboveNormal,precip=None
+"{precip=None, solar=Medium, temp=Low, uhi=Neutral} → {wind=Light}",0.0858636137381782,0.7823129251700681,1.201120876321488,"precip=None, solar=Medium, temp=Low, uhi=Neutral",wind=Light
