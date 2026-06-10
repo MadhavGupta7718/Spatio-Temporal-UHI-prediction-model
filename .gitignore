@@ -1,0 +1,10 @@
+# Block training images (EuroSAT)
+data/labels/
+
+# Block all sensor data and processed DataFrames
+data/raw/*.csv
+data/processed/
+
+# Block Scikit-Learn/XGBoost model weights
+*.joblib
+*.csv
